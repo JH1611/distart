@@ -1,0 +1,22 @@
+{
+  "name": "distart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env ./src/index.ts ",
+    "build": "tsc --project tsconfig.json",
+    "start": "node --env-file=.env ./dist/index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2"
+  }
+}
